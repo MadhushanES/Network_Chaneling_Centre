@@ -1,2 +1,14 @@
 # Network_Chaneling_Centre
 Advanced Network and Security Infrastructure Implementation for a Digitized Channeling Centre
+Project Outline: 	
+This project is for a well-known Channelling Centre in Colombo that has clients around the country. This Channelling Centre conducts various tests for patients and consultant services. I’m planning to design and implement a network for digitizing, marketing services and securely accessing information. This Channelling Centre is in a building that has three floors. There is a pharmacy, medical labs, and reception on the 1st floor. Consultancy rooms of doctors, the HR department, the finance department, and the stores are on the 2nd floor. IT department with management and hardware for IT and Network services are on the 3rd floor. 
+I will design network and ICT infrastructure for this including Local area networks (LAN), Wide area networks (WAN), and server-side sites. The server-side site will host the DHCP server, DNS server, and Web server Health Information System. Email server, and File server, ensuring data accessibility and security. This network has confidentiality, Integrity, and Availability. In this network, I must use a WAN Router and I want to choose an ISP. On the other side, the router will connect several access switches to connect each department. The users must have access to a wireless network in each department. Every department has a different VLAN and different subnetwork. Every device should properly configure its basic device settings such as hostnames, passwords, messages, etc. Every department should communicate with each other so multilayer switches are configured to inter VLAN routing. Every device in the network will obtain the IP address dynamically from the DHCP server. configure SSH in all routers and layer three switches for remote login. I will utilize two servers for virtualization to manage user information. I’m planning to use two storage devices. Cisco Voice Gateways will be employed for VoIP and telephony services. Additionally, a Cisco Wireless LAN Controller (WLC) and ten Lightweight Access Points (LAPs) will centralize the management of the wireless network. Also, I’m planning to use a cloud service to connect clients across the country to the services and resources. Due to security requirements, I’m planning to put all LAN, WLAN, and VoIP users on a separate network segment within the same local area network. The firewall will be used to set security zones and filter traffic that moves in and out of the zones based on the configured inspection policies.
+
+Research Areas of Study: 	
+•	Network design and architecture
+•	Network security
+•	Dynamic IP address management
+•	Routing protocols and network configuration
+•	Network monitoring and management
+•	Cloud services
+•	Virtualization
